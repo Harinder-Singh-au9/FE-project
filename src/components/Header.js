@@ -1,12 +1,12 @@
 import React from 'react';
 import "./css/header.css"
-import Logo from "./images/logo.PNG"
-const Header = () => {
+
+const Header = (props) => {
     return ( <
-        div class = "header" >
+        div className = "header" >
         <
-        img class = "logo"
-        src = { Logo }
+        img className = "logo"
+        src = { props.image }
         alt = "loding issue" / >
         <
         /div>

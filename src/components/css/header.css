@@ -1,7 +1,6 @@
 .header {
     width: 100%;
-    height: fit-content;
-    padding: 1px;
+    height: 70px;
     padding-left: 30px;
     background-color: #0284FF;
     font: bold;
@@ -11,4 +10,9 @@
 .logo {
     height: 60px;
     width: auto;
+    margin: auto;
+}
+
+.logo:hover {
+    border: 1px solid white;
 }
