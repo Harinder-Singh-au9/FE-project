@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    height: fit-content;
+    padding: 1px;
+    padding-left: 30px;
+    background-color: #0284FF;
+    font: bold;
+    font-family: "Brush Script MT", cursive;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
