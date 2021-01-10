@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
-import Header from "./components/Header.js"
-import Logo from "./components/images/logo.PNG"
+import React, { Component } from "react";
+import Navbar from "./components/Navbar.js"
+import "./components/css/main.css"
+import Home from "./components/Home.js"
 
-import MainPageBeforeLogin from "./components/MainPageBeforeLogin"
+// import MainPageBeforeLogin from "./components/MainPageBeforeLogin";
 export default class App extends Component {
     render() {
         return ( <
             div className = "App" >
+
             <
-            Header image = { Logo }
-            /> <
-            MainPageBeforeLogin / >
+            Navbar / >
             <
             /div>
-        )
+        );
     }
 }

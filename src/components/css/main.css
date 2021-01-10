@@ -1,0 +1,97 @@
+#profile-small-img {
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 0 auto;
+}
+
+#searchbar {
+    width: 200px;
+    text-align: left;
+}
+
+#logo-img {
+    height: 50px;
+}
+
+#home-logo {
+    height: 40px;
+}
+
+#signout-logo {
+    height: 40px;
+}
+
+.post {
+    display: absolute;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 30px;
+    height: 100%;
+    width: 500px;
+    color: black;
+}
+
+#post-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.Like-btn,
+.Comment-btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-left: 50px
+}
+
+.post ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.post-by-user {
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
+}
+
+::placeholder {
+    color: black;
+    font-size: small;
+}
+
+.post-by-user input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.post-by-user button {
+    background-color: navy;
+    color: white;
+    margin-left: 400px;
+}
+
+.post button {
+    background-color: navy;
+    color: white;
+    margin-left: 400px;
+}
+
+.post,
+.post-by-user {
+    margin-left: 30%;
+}
+
+.nav {
+    display: flex;
+    padding-left: 25px
+}
