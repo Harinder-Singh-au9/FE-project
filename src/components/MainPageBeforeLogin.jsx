@@ -12,7 +12,8 @@ const MainPageBeforeLogin = () => {
         div className = "MainPage" >
         <
         img src = { MainPageLogo }
-        /> <Navbar / >
+        />  <
+        Navbar / >
         <
         LoginForm / >
         <

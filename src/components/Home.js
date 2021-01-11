@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from "axios"
 import Like from "./images/likeLogo.png"
 import Comment from "./images/commentLogo.png"
+import Post from "./Post.js"
 export default class Home extends Component {
     state = {
         posts: []
@@ -71,18 +72,9 @@ export default class Home extends Component {
         return ( <
             >
             <
-            div className = "post-by-user" >
-            <
-            img src = { localStorage.getItem("picurl") }
-            alt = "NP"
-            id = "post-image" / >
-            <
-            input type = "text"
-            id = "comment-box"
-            placeholder = "Whats in your mind" / >
-            <
-            button > Post < /button> <
-            /div> { ListofPosts } <
+            Post / >
+
+            { ListofPosts } <
             />
 
         )
